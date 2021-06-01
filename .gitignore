@@ -1,3 +1,9 @@
+##### GZ #####
+apps/
+Local/
+.DS_Store
+
+##### Node.js #####
 # Logs
 logs
 *.log
