@@ -11,13 +11,27 @@ const Button = ({
   disabled,
   handleClick,
 }) => {
+  const CustomButton = () => (
+    <div className="button custom-button">
+      {leftIcon && <Icon name={leftIcon} fill="#fff" />}
+      <span className="custom-button-label">{label}</span>
+      {rightIcon && <i className={`eco-icon-${rightIcon}`}></i>}
+    </div>
+  );
+
+  const DefaultButton = () => (
+    <button
+      className={`button ${variant}`}
+      onClick={handleClick}
+      disabled={disabled}
+    >
+      {label}
+    </button>
+  );
+
   return (
     <div className="Button">
-      <button className={variant} onClick={handleClick} disabled={disabled}>
-        {leftIcon && <Icon name={leftIcon} fill="ffffff" />}
-        {label}
-      </button>
-      {rightIcon && <i className={`eco-icon-${rightIcon}`}></i>}
+      {rightIcon || leftIcon ? <CustomButton /> : <DefaultButton />}
     </div>
   );
 };

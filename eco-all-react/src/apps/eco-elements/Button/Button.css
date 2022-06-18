@@ -28,7 +28,8 @@
   --secondary-press-color: #ecedf2;
 }
 
-.Button button {
+.Button .button,
+.Button .custom-button {
   display: flex;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -39,16 +40,16 @@
   cursor: pointer;
   transition: background 0.2s ease-in-out;
 }
-.Button button:hover {
+.Button .button:hover {
   background-color: var(--hover-color);
 }
-.Button button:active {
+.Button .button:active {
   background-color: var(--press-color);
 }
-.Button button:focus {
+.Button .button:focus {
   outline-color: var(--focus-color);
 }
-.Button button:disabled {
+.Button .button:disabled {
   background-color: var(--disable-bg-color);
   color: var(--disable-text-color);
   cursor: not-allowed;
@@ -63,4 +64,11 @@
 }
 .Button .secondary:active {
   background-color: var(--secondary-press-color);
+}
+.custom-button {
+  width: fit-content;
+  justify-content: space-between;
+}
+.custom-button-label {
+  margin-left: 5px;
 }
