@@ -1,0 +1,23 @@
+.CodeSnippet {
+  background: #272837;
+  background: #171946;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 5px;
+  max-width: 80ch;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.CodeSnippet code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace; */
+  font-family: monospace;
+  color: #00a560;
+  color: #27e416;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+}
