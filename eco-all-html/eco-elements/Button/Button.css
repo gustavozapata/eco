@@ -1,0 +1,51 @@
+.Button {
+    --primary-color: #1155CB;
+    --secondary-color: #fff;
+
+    --hover-color: #2768d9;
+    --press-color: #1449A4;
+    --focus-color: #9DB5FF;
+    --disable-bg-color: #173878;
+    --disable-text-color: #929EB5;
+
+    --secondary-border-color: #D8DAE5;
+    --secondary-text-color: #696F8C;
+    --secondary-hover-color: #f7f7f7;
+    --secondary-press-color: #ecedf2;
+}
+
+.Button button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+.Button button:hover {
+    background-color: var(--hover-color);
+}
+.Button button:active {
+    background-color: var(--press-color);
+}
+.Button button:focus {
+    outline-color: var(--focus-color);
+}
+.Button button:disabled {
+    background-color: var(--disable-bg-color);
+    color: var(--disable-text-color);
+    cursor: not-allowed;
+}
+.Button .secondary {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    border: 1px solid var(--secondary-border-color);
+}
+.Button .secondary:hover {
+    background-color: var(--secondary-hover-color);
+}
+.Button .secondary:active {
+    background-color: var(--secondary-press-color);
+}
