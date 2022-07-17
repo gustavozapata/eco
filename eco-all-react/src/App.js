@@ -9,6 +9,11 @@ function App() {
           <Link to="/templates/landing-page">Templates / Landing page</Link>
         </li>
         <li>
+          <Link to="/templates/landing-page/form">
+            Templates / Landing page / Form
+          </Link>
+        </li>
+        <li>
           <Link to="/templates/documentation">Templates / Documentation</Link>
         </li>
       </nav>
