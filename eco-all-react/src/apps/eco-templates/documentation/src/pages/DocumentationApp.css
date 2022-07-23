@@ -1,0 +1,12 @@
+/* FIXME: these styles will be app/template level e.g. Documentation will have glabal styles */
+._html {
+  overflow: hidden;
+  height: 100%;
+}
+._body {
+  height: 100%;
+  overflow: auto;
+}
+.section-nav-sidebar {
+  background-color: rgb(239, 245, 253);
+}

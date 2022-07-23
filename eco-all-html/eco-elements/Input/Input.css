@@ -1,0 +1,9 @@
+.Input input {
+    padding: 8px 6px;
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    outline: none;
+}
