@@ -1,0 +1,19 @@
+.FormEntry .label {
+  color: #4e4e4e;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.FormEntry .description {
+  color: #8d8f99;
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+.FormEntry .feedback {
+  color: #7a7a7a;
+  font-size: 0.85em;
+  margin: 6px 0;
+}
+.FormEntry .feedback-error {
+  color: #e16170;
+}
