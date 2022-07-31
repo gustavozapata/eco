@@ -1,0 +1,6 @@
+.ninety {
+  transform: rotate(90deg);
+}
+.tertiary path {
+  fill: var(--tertiary);
+}
