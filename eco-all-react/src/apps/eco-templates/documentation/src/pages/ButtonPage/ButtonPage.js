@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../layout/Layout";
-import Button from "../../../../../eco-elements/Button/Button";
+import Button from "../../../../../eco-elements/elements/Button/Button";
 
 const ButtonPage = () => {
   return (
