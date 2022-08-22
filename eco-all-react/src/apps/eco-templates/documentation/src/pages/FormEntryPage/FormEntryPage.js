@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FormEntry from "../../../../../eco-components/FormEntry/FormEntry";
+import FormEntry from "../../../../../eco-components/components/FormEntry/FormEntry";
 import CodeSnippet from "../../../../../eco-components/Z/CodeSnippet";
-import Column from "../../../../../eco-layout/Column/Column";
-import Row from "../../../../../eco-layout/Row/Row";
+import Column from "../../../../../eco-layout/layout/Column/Column";
+import Row from "../../../../../eco-layout/layout/Row/Row";
 import Layout from "../../layout/Layout";
 
 const FormEntryPage = () => {
