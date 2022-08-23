@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../layout/Layout";
-import Label from "../../../../../eco-elements/Label/Label";
+import Label from "../../../../../eco-elements/elements/Label/Label";
 
 const LabelPage = () => {
   return (
