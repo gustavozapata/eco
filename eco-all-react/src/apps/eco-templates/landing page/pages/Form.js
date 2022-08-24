@@ -1,6 +1,6 @@
 import React from "react";
-import FormEntry from "../../../eco-components/FormEntry/FormEntry";
-import Section from "../../../eco-layout/Section/Section";
+import FormEntry from "../../../eco-components/components/FormEntry/FormEntry";
+import Section from "../../../eco-layout/layout/Section/Section";
 
 const Form = () => {
   return (
