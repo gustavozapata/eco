@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../../../eco-layout/Container/Container";
-import Page from "../../../eco-layout/Page/Page";
-import Section from "../../../eco-layout/Section/Section";
-import Wrapper from "../../../eco-layout/Wrapper/Wrapper";
+import Container from "../../../eco-layout/layout/Container/Container";
+import Page from "../../../eco-layout/layout/Page/Page";
+import Section from "../../../eco-layout/layout/Section/Section";
+import Wrapper from "../../../eco-layout/layout/Wrapper/Wrapper";
 
 const Home = () => {
   return (
