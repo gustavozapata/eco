@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Dropdown from "../../../../../eco-components/components/Dropdown/Dropdown";
+import CodeSnippet from "../../../../../eco-components/Z/CodeSnippet";
 import Column from "../../../../../eco-layout/layout/Column/Column";
 import Row from "../../../../../eco-layout/layout/Row/Row";
 import Layout from "../../layout/Layout";
@@ -59,6 +60,18 @@ const FormEntryPage = () => {
           />
         </Column>
       </Row>
+      <CodeSnippet
+        code={`<Dropdown
+        name="Option"
+        isCustom
+        selected={action}
+        handleSelect={(option) => setAction(option)}
+        options={[
+          { value: "buy", label: "Buy", icon: "cart", command: "⌘B" },
+          { value: "link", label: "Link", icon: "link", command: "⌘L" },
+        ]}
+      />`}
+      />
     </Layout>
   );
 };
