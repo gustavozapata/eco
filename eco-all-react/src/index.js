@@ -6,6 +6,7 @@ import ComponentPage from "./apps/eco-templates/documentation/src/pages/Componen
 import App from "./App";
 import LabelPage from "./apps/eco-templates/documentation/src/pages/LabelPage/LabelPage";
 import ButtonPage from "./apps/eco-templates/documentation/src/pages/ButtonPage/ButtonPage";
+import InputPage from "./apps/eco-templates/documentation/src/pages/InputPage/InputPage";
 import FormEntryPage from "./apps/eco-templates/documentation/src/pages/FormEntryPage/FormEntryPage";
 import DropdownPage from "./apps/eco-templates/documentation/src/pages/DropdownPage/DropdownPage";
 import Form from "./apps/eco-templates/landing page/pages/Form";
@@ -20,6 +21,7 @@ render(
       <Route path="/templates/documentation" element={<Documentation />} />
       <Route path="/templates/documentation/Label" element={<LabelPage />} />
       <Route path="/templates/documentation/Button" element={<ButtonPage />} />
+      <Route path="/templates/documentation/Input" element={<InputPage />} />
       <Route
         path="/templates/documentation/Dropdown"
         element={<DropdownPage />}
