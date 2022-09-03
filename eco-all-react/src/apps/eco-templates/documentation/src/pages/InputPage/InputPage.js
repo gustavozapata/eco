@@ -14,10 +14,10 @@ const FormEntryPage = () => {
       <Row>
         <Column>
           <p>Default input</p>
-          <Input />
+          <Input placeholder="Placeholder" />
         </Column>
       </Row>
-      <CodeSnippet code={`<Input/>`} />
+      <CodeSnippet code={`<Input placeholder="Placeholder"/>`} />
     </Layout>
   );
 };
