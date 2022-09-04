@@ -16,6 +16,10 @@ const FormEntryPage = () => {
           <p>Default input</p>
           <Input placeholder="Placeholder" />
         </Column>
+        <Column>
+          <p>Input password</p>
+          <Input type="password" />
+        </Column>
       </Row>
       <CodeSnippet code={`<Input placeholder="Placeholder"/>`} />
     </Layout>
